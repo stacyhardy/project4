@@ -134,7 +134,7 @@ define( [ "yasmf", "app/models/noteStorageSingleton",
       self._navigationBar = self.element.querySelector( ".ui-navigation-bar" );
       self._nameEditor = self.element.querySelector( ".ui-navigation-bar .ui-title" );
 	  self._statusEditor = self.element.querySelector( ".ui-navigation-bar .ui-status" ); //added statusEditor
-	  self._statusEditor.value = self._note.status;
+	  self._statusEditor.value = self._note.status; //Added this line to make status stick in edit view
       self._backButton = self.element.querySelector(
         ".ui-navigation-bar .ui-bar-button-group.ui-align-left .ui-back-button" );
       self._deleteButton = self.element.querySelector(
