@@ -1,9 +1,10 @@
 <html>
 <!--*************************************************************************************
 	Author: Stacy Hardy
-    Date: 03/08/2016
-    Project 4
+    Date: 03/14/2016
+    Project 5
     Purpose: To add status label to each noteListItem
+    Edited: Changed ui-label note-status to ui-glyph note-statys ui-glyph-%STATUS%
     *************************************************************************************
       noteListItem.html
       @author Kerri Shotts
@@ -30,8 +31,9 @@
   <div class="ui-list-item-contents" data-uid="%UID%">
     <div class="ui-glyph note-representation ui-glyph-%REPRESENTATION%"></div>
     
-     <!--Added Status label -->
-    <div class="ui-label note-status">%STATUS%</div>
+     <!--Added Status label, changed ui-label to ui-glyph -->
+    <!-- <div class="ui-label note-status">%STATUS%</div> -->
+    <div class="ui-glyph note-status ui-glyph-%STATUS%"></div> 
     
     <div class="ui-label note-name">%NAME%</div>
     <div class="ui-label note-modified-date">%MODIFIED%</div>

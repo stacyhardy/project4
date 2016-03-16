@@ -1,9 +1,11 @@
 /********************************************************************************************
 	Author:Stacy Hardy
-	Date: 03/08/2016
+	Date: 03/16/2016
 	Project 4
 	Purpose: to style new status on noteListView.html
 	Edited: added style for status information on noteListItem
+	Edited: Added ui-glyph-Follow, ui-glyph-Archive and ui-glyph-New
+		Updated style for .note-status
 ********************************************************************************************
  * Filer v5 Styles
  *
@@ -186,6 +188,20 @@ body.android {
 .android .noteListView .ui-list-item .note-representation.ui-glyph-film {
   background-color: #99CC00;
 }
+
+/****************************************************************************
+ Added styles for Archive, Follow and New
+*****************************************************************************/
+.android .noteListView .ui-list-item .note-status.ui-glyph-Archive { 
+  background-color: black;
+}
+.android .noteListView .ui-list-item .note-status.ui-glyph-Follow {
+  background-color: red;
+}
+.android .noteListView .ui-list-item .note-status.ui-glyph-New {
+  background-color: blue;
+}
+
 /* position and style the name of the note */
 
 .noteListView .ui-list-item .note-name {
@@ -235,14 +251,14 @@ body.android {
 }
 
 /* position and style the status information on noteListItem */
-
+/****************************************************************
+ Changed style with no font and added sizes
+ ****************************************************************/
 .noteListView .ui-list-item .note-status {
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 300;
-  color: rgba(87, 52, 32, 0.5);
+  height: 30px;
+  width: 10px;
   float: right;
-  padding-right: 25px;
+  padding-right: 80px;
 }
 
 /* color the list indicator */

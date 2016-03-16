@@ -1,7 +1,7 @@
 /********************************************************************************************
 	Author: Stacy Hardy
-	Date: 03/08/2016
-	Project 4
+	Date: 03/14/2016
+	Project 5
 	Purpose: Add functions for status properties. Add functions for camera and video.
  *******************************************************************************************
  *

@@ -1,7 +1,7 @@
 /******************************************************************************************
 	Author: Stacy Hardy
-	Date:03/08/2016
-	Project 4
+	Date:03/14/2016
+	Project 5
 	Purpose: to receive the status from the textNote or audioNote status drop down and display 
 		what was selected.
  *****************************************************************************************

@@ -1,4 +1,10 @@
-/*!
+/**************************************************************************************
+	Author: Stacy Hardy
+    Date: 03/15/2016
+    Project 5
+    Purpose: Added new glyphs for Follow, Archive and New
+    *************************************************************************************
+	!
  * YASMF-Next Styling
  *
  * yasmf.css
@@ -903,8 +909,29 @@ div {
 /*****************************************************************************
  *
  * Icon Glyphs
- *
+ * ADDED glyph for Follow, Archive and New
  *****************************************************************************/
+ .ui-glyph-Follow {
+  -webkit-mask-image: url("./yasmf-assets/push-pin@2x.png");
+  -moz-mask-image: url("./yasmf-assets/push-pin@2x.png");
+  -ms-mask-image: url("./yasmf-assets/push-pin@2x.png");
+  -o-mask-image: url("./yasmf-assets/push-pin@2x.png");
+  mask-image: url("./yasmf-assets/push-pin@2x.png"); }
+  
+.ui-glyph-Archive {
+  -webkit-mask-image: url("./yasmf-assets/file-cabinet@2x.png");
+  -moz-mask-image: url("./yasmf-assets/file-cabinet@2x.png");
+  -ms-mask-image: url("./yasmf-assets/file-cabinet@2x.png");
+  -o-mask-image: url("./yasmf-assets/file-cabinet@2x.png");
+  mask-image: url("./yasmf-assets/file-cabinet@2x.png"); }
+  
+.ui-glyph-New {
+  -webkit-mask-image: url("./yasmf-assets/new@2x.png");
+  -moz-mask-image: url("./yasmf-assets/new@2x.png");
+  -ms-mask-image: url("./yasmf-assets/new@2x.png");
+  -o-mask-image: url("./yasmf-assets/new@2x.png");
+  mask-image: url("./yasmf-assets/new@2x.png"); }
+  
 .ui-glyph-arrow-corners-inward {
   -webkit-mask-image: url("./yasmf-assets/arrow-corners-inward@2x.png");
   -moz-mask-image: url("./yasmf-assets/arrow-corners-inward@2x.png");
